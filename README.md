@@ -1,8 +1,14 @@
 # pw-strength
-Check password strength and generate strong passwords. Zero dependencies.
+
+Password strength analyzer
+
 ## Usage
+
+```bash
+python3 pw_strength.py --help
 ```
-python3 pw_strength.py check "MyP@ssw0rd!"
-python3 pw_strength.py generate 20
-python3 pw_strength.py "test123"
-```
+
+## Features
+
+- Zero dependencies (Python 3.8+)
+- Single file implementation
